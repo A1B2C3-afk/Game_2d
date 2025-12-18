@@ -43,7 +43,7 @@ public class Main extends Application {
 	public void start(Stage stage) throws Exception {
 		
 		
-//		initiaization of (Scene, roots, texts, imagesandstyles) we don't new to instatiate stage because it already passed in parameters
+
 		MenuScene menu = new MenuScene(stage);
 		
 		stage.setScene(menu.getScene());
